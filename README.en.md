@@ -20,6 +20,7 @@
 | Plugin | What it solves | Status |
 |---|---|---|
 | [**provider-proxy**](https://github.com/xenon007/hermes-plugin-provider-proxy) | Per-target HTTP proxy routing for LLM egress. Send `api.openai.com`, `api.deepseek.com` through a proxy, or keep `api.awesome-corporation.corp` direct — in the same process. Built for closed networks where only a proxy reaches the internet. | v1.0.0 · [tests 75/75](https://github.com/xenon007/hermes-plugin-provider-proxy#testing) |
+| [**hermes-motd-plugin**](https://github.com/xenon007/hermes-motd-plugin) | A "don't forget" panel for Hermes Desktop. Loose ends that drown between chats — "send a sticker", "send the node fields" — in one file: the agent appends to it with the `motd_add` tool, and a sidebar page shows the list with one-click command copy. | v1.0.0 · [tests 17/17](https://github.com/xenon007/hermes-motd-plugin#testing) |
 
 More to come. The bar for inclusion: a real problem, tests that prove it, and an
 honest limitations section.
